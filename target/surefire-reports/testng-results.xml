@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-12T12:16:36 IST" name="Suite" finished-at="2023-11-12T12:16:36 IST" duration-ms="69">
+    <groups>
+      <group name="car">
+        <method signature="Day2.MobileCarLoan()[pri:0, instance:framework.testng1.Day2@2ea227af]" name="MobileCarLoan" class="framework.testng1.Day2"/>
+        <method signature="Day2.WebCarLoan()[pri:0, instance:framework.testng1.Day2@2ea227af]" name="WebCarLoan" class="framework.testng1.Day2"/>
+      </group> <!-- car -->
+    </groups>
+    <test started-at="2023-11-12T12:16:36 IST" name="Test" finished-at="2023-11-12T12:16:36 IST" duration-ms="69">
+      <class name="framework.testng1.Day2">
+        <test-method signature="MobileCarLoan()[pri:0, instance:framework.testng1.Day2@2ea227af]" started-at="2023-11-12T12:16:36 IST" name="MobileCarLoan" finished-at="2023-11-12T12:16:36 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileCarLoan -->
+        <test-method signature="WebCarLoan()[pri:0, instance:framework.testng1.Day2@2ea227af]" started-at="2023-11-12T12:16:36 IST" name="WebCarLoan" finished-at="2023-11-12T12:16:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebCarLoan -->
+      </class> <!-- framework.testng1.Day2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-10T19:50:22 IST" name="Suite" finished-at="2023-11-10T19:50:22 IST" duration-ms="84">
+    <groups>
+      <group name="car">
+        <method signature="Day2.MobileCarLoan()[pri:0, instance:framework.testng1.Day2@245b4bdc]" name="MobileCarLoan" class="framework.testng1.Day2"/>
+        <method signature="Day2.WebCarLoan()[pri:0, instance:framework.testng1.Day2@245b4bdc]" name="WebCarLoan" class="framework.testng1.Day2"/>
+      </group> <!-- car -->
+    </groups>
+    <test started-at="2023-11-10T19:50:22 IST" name="Test" finished-at="2023-11-10T19:50:22 IST" duration-ms="84">
+      <class name="framework.testng1.Day1">
+        <test-method is-config="true" signature="before_suite()[pri:0, instance:framework.testng1.Day1@5b239d7d]" started-at="2023-11-10T19:50:22 IST" name="before_suite" finished-at="2023-11-10T19:50:22 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_suite -->
+        <test-method is-config="true" signature="before_test()[pri:0, instance:framework.testng1.Day1@5b239d7d]" started-at="2023-11-10T19:50:22 IST" name="before_test" finished-at="2023-11-10T19:50:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_test -->
+        <test-method signature="MobileHomeLoan()[pri:0, instance:framework.testng1.Day1@5b239d7d]" started-at="2023-11-10T19:50:22 IST" name="MobileHomeLoan" finished-at="2023-11-10T19:50:22 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileHomeLoan -->
+        <test-method signature="WebHomeLoan()[pri:0, instance:framework.testng1.Day1@5b239d7d]" started-at="2023-11-10T19:50:22 IST" name="WebHomeLoan" finished-at="2023-11-10T19:50:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebHomeLoan -->
+        <test-method is-config="true" signature="after_test()[pri:0, instance:framework.testng1.Day1@5b239d7d]" started-at="2023-11-10T19:50:22 IST" name="after_test" finished-at="2023-11-10T19:50:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+        <test-method is-config="true" signature="after_suite()[pri:0, instance:framework.testng1.Day1@5b239d7d]" started-at="2023-11-10T19:50:22 IST" name="after_suite" finished-at="2023-11-10T19:50:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_suite -->
+      </class> <!-- framework.testng1.Day1 -->
+      <class name="framework.testng1.Day3">
+        <test-method signature="MobilePersonalLoan()[pri:0, instance:framework.testng1.Day3@222545dc]" started-at="2023-11-10T19:50:22 IST" name="MobilePersonalLoan" finished-at="2023-11-10T19:50:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilePersonalLoan -->
+        <test-method signature="WebPersonalLoan()[pri:0, instance:framework.testng1.Day3@222545dc]" started-at="2023-11-10T19:50:22 IST" name="WebPersonalLoan" finished-at="2023-11-10T19:50:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebPersonalLoan -->
+        <test-method signature="a_method()[pri:0, instance:framework.testng1.Day3@222545dc]" started-at="2023-11-10T19:50:22 IST" name="a_method" finished-at="2023-11-10T19:50:22 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_method -->
+        <test-method signature="beetroot()[pri:0, instance:framework.testng1.Day3@222545dc]" started-at="2023-11-10T19:50:22 IST" name="beetroot" finished-at="2023-11-10T19:50:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beetroot -->
+        <test-method signature="carrot()[pri:0, instance:framework.testng1.Day3@222545dc]" started-at="2023-11-10T19:50:22 IST" name="carrot" finished-at="2023-11-10T19:50:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carrot -->
+        <test-method signature="drumstick(java.lang.String)[pri:0, instance:framework.testng1.Day3@222545dc]" started-at="2023-11-10T19:50:22 IST" name="drumstick" finished-at="2023-11-10T19:50:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drumstick -->
+        <test-method signature="apple()[pri:0, instance:framework.testng1.Day3@222545dc]" started-at="2023-11-10T19:50:22 IST" name="apple" finished-at="2023-11-10T19:50:22 IST" depends-on-methods="framework.testng1.Day3.beetroot, framework.testng1.Day3.carrot" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple -->
+      </class> <!-- framework.testng1.Day3 -->
+      <class name="framework.testng1.Day2">
+        <test-method signature="MobileCarLoan()[pri:0, instance:framework.testng1.Day2@245b4bdc]" started-at="2023-11-10T19:50:22 IST" name="MobileCarLoan" finished-at="2023-11-10T19:50:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileCarLoan -->
+        <test-method signature="WebCarLoan()[pri:0, instance:framework.testng1.Day2@245b4bdc]" started-at="2023-11-10T19:50:22 IST" name="WebCarLoan" finished-at="2023-11-10T19:50:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebCarLoan -->
+      </class> <!-- framework.testng1.Day2 -->
+      <class name="framework.testng1.Day4">
+        <test-method is-config="true" signature="before_class()[pri:0, instance:framework.testng1.Day4@5c5eefef]" started-at="2023-11-10T19:50:22 IST" name="before_class" finished-at="2023-11-10T19:50:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_class -->
+        <test-method is-config="true" signature="before_method()[pri:0, instance:framework.testng1.Day4@5c5eefef]" started-at="2023-11-10T19:50:22 IST" name="before_method" finished-at="2023-11-10T19:50:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method signature="MobileEducationLoan()[pri:0, instance:framework.testng1.Day4@5c5eefef]" started-at="2023-11-10T19:50:22 IST" name="MobileEducationLoan" finished-at="2023-11-10T19:50:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileEducationLoan -->
+        <test-method is-config="true" signature="before_method()[pri:0, instance:framework.testng1.Day4@5c5eefef]" started-at="2023-11-10T19:50:22 IST" name="before_method" finished-at="2023-11-10T19:50:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method is-config="true" signature="after_method()[pri:0, instance:framework.testng1.Day4@5c5eefef]" started-at="2023-11-10T19:50:22 IST" name="after_method" finished-at="2023-11-10T19:50:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_method -->
+        <test-method signature="WebEducationLoan()[pri:0, instance:framework.testng1.Day4@5c5eefef]" started-at="2023-11-10T19:50:22 IST" name="WebEducationLoan" finished-at="2023-11-10T19:50:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebEducationLoan -->
+        <test-method is-config="true" signature="after_method()[pri:0, instance:framework.testng1.Day4@5c5eefef]" started-at="2023-11-10T19:50:22 IST" name="after_method" finished-at="2023-11-10T19:50:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_method -->
+        <test-method is-config="true" signature="after_class()[pri:0, instance:framework.testng1.Day4@5c5eefef]" started-at="2023-11-10T19:50:22 IST" name="after_class" finished-at="2023-11-10T19:50:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_class -->
+      </class> <!-- framework.testng1.Day4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
